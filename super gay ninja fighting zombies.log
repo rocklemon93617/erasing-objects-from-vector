@@ -1,0 +1,40 @@
+﻿  Bullet.cpp
+  main.cpp
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(23,59): warning C4244:  "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(23,59): warning C4244:         with
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(23,59): warning C4244:         [
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(23,59): warning C4244:             T=unsigned int
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(23,59): warning C4244:         ]
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(23,35): warning C4244:  "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(23,35): warning C4244:         with
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(23,35): warning C4244:         [
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(23,35): warning C4244:             T=unsigned int
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(23,35): warning C4244:         ]
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(59,22): warning C4018:  "<": niezgodność typu ze znakiem/bez znaku
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(2083,1): error C2280:  „Bullet &Bullet::operator =(const Bullet &)”: próba odwania do usuniętej funkcji
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\Bullet.h(33): message :  w tym miejscu kompilator wygenerował „Bullet::operator =”
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\Bullet.h(33,1): message :  „Bullet &Bullet::operator =(const Bullet &)”: Funkcja została niejawnie usunięta, ponieważ element „Bullet” ma składową danych „Bullet::velocity” niebędącego klasą typu kwalifikowanego przy użyciu stałej
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\Bullet.h(32): message :  zobacz deklarację „Bullet::velocity”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1308): message :  zobacz odwołanie do kompilowanego wystąpienia „_OutIt *std::_Move_unchecked<Bullet*,Bullet*>(_InIt,_InIt,_OutIt)” funkcji szablon
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1308): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1308): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1308): message :             _OutIt=Bullet *,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1308): message :             _InIt=Bullet *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1308): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1296): message :  podczas kompilowania funkcji składowej „std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::erase(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)” klasy klasa szablon
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1296): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1296): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1296): message :             _Ty=Bullet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1296): message :         ]
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(63): message :  zobacz odwołanie do kompilowanego wystąpienia „std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::erase(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)” funkcji szablon
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(63): message :         with
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(63): message :         [
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(63): message :             _Ty=Bullet
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(63): message :         ]
+  Player.cpp
+  Generowanie kodu...
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(25): message :  zobacz odwołanie do kompilowanego wystąpienia „std::vector<Bullet,std::allocator<_Ty>>” klasy klasa szablon
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(25): message :         with
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(25): message :         [
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(25): message :             _Ty=Bullet
+C:\Users\Adam\source\repos\super gay ninja fighting zombies\super gay ninja fighting zombies\main.cpp(25): message :         ]
